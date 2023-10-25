@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to top left,
+    #11009e,
+    #4942e4,
+    #8696fe,
+    #c4b0ff
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  margin: 3rem;
+  padding: 0 3rem;
+  display: flex;
+  background-color: #eaf8f8;
+  border-radius: 1rem;
+}
+
+.hero-text {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000000;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1.25rem;
+}
+
+.hero-text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  width: 35vw;
+}
+
+.hero > img {
+  width: 45%;
+}
+
+.details,
+footer {
+  margin: 3rem;
+  
+  background-color: #eaf8f8;
+  border-radius: 1rem;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+footer{
+    padding: 3rem;
+}
+
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.details > div {
+  padding: 3rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.details p,
+footer p {
+  margin-bottom: 1rem;
+}
+
+#projects {
+  margin-bottom: 0;
+}
+
+.projects,
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.project-img,
+.skill-img {
+  height: 30vh;
+}
+
+.skill h3,
+.project h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1rem 0;
+}
+
+.project,
+.skill {
+  box-shadow: 0 0 7px 1px #EBC4C4;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  background-color: #F8F1EA;
+}
+.education, .skills-section, .project-section {
+    background-color: #F8EAEA;
+}
+
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      
+      body {
+        background-image: linear-gradient(
+          to top left,
+          #11009e,
+          #4942e4,
+          #8696fe,
+          #c4b0ff
+        );
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .hero {
+        margin: 0 0 3rem;
+        padding: 0 1.5rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #eaf8f8;
+        border-radius: 1rem;
+      }
+      
+      .hero-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: #000000;
+      }
+      
+      h1 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-size: 3rem;
+        margin-bottom: 1.25rem;
+      }
+      
+      .hero-text p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.25rem;
+        width: 100%;
+      }
+      
+      .hero > img {
+        width: 100%;
+      }
+      
+      .details,
+      footer {
+        margin: 0 0 3rem;
+        
+        background-color: #eaf8f8;
+        border-radius: 1rem;
+        font-family: "Open Sans", sans-serif;
+        overflow: hidden;
+      }
+      
+      footer{
+        margin: 0;
+          padding: 1.5rem;
+      }
+      
+      h2 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+      }
+      
+      .details > div {
+        padding: 1.5rem;
+      }
+      
+      ul li {
+        list-style-type: none;
+      }
+      
+      .details p,
+      footer p {
+        margin-bottom: 1rem;
+      }
+      
+      #projects {
+        margin-bottom: 0;
+      }
+      
+      .projects,
+      .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+      }
+      
+      .project-img,
+      .skill-img {
+        height: 30vh;
+      }
+      
+      .skill h3,
+      .project h3 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        margin: 1rem 0;
+      }
+      
+      .project,
+      .skill {
+        box-shadow: 0 0 7px 1px #EBC4C4;
+        border-radius: 1rem;
+        padding: 0 1rem;
+        background-color: #F8F1EA;
+      }
+      .education, .skills-section, .project-section {
+          background-color: #F8EAEA;
+      }
+}
